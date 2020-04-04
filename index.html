@@ -3,11 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<meta name="author" content="Laravriam Kolobanov">
+	<meta name="author" content="laravriam Kolobanov">
 	<meta name="description" content="HTML5/CSS3 landing page layout by laravriam">
 	<title>Pex | laravriam</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="media.css">
 </head>
 <body>
 	<header id="site-header" class="header-content">
@@ -90,7 +91,14 @@
 			</div>
 		</div>
 		<div id="article">
-			
+			<div class="article-content">
+				<span class="article-content__lead">Photography</span>
+				<h2 class="article-content__title">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit</h2>
+				<div class="article-author">
+					<img src="src/author.png" alt="" class="article-author__img">
+					<p class="article-author__title">Blaz Robar, god like web designer</p>
+				</div>
+			</div>
 		</div>
 		<div id="about">
 			<div class="about-inner">
@@ -105,5 +113,10 @@
 			</div>
 		</div>
 	</main>
+	<footer id="site-footer">
+		<div class="footer-content">
+			<p class="site-name">&copy; 2020 Pex. All right Reserved. <span class="by">by laravriam</span></p>
+		</div>
+	</footer>
 </body>
 </html>

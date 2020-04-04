@@ -4,7 +4,7 @@ body {
 	margin: 0;
 }
 
-a,h1,p,h3,h2 {
+a,h1,p,h3,h2,span {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none; 
 }
@@ -36,6 +36,10 @@ a,h1,p,h3,h2 {
 
 .nav-block__logo {
 	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav-block__menu {
@@ -294,4 +298,74 @@ a,h1,p,h3,h2 {
 	height: 100vh;
 	background: url('src/article.png');
 	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.article-content {
+	width: 80%;
+	height: 80%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.article-content__lead {
+	color: #fff;
+	font-size: 12pt;
+	padding: 10px 25px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	letter-spacing: 2px;
+}
+
+.article-content__title {
+	font-size: 40pt;
+	font-weight: 300;
+	color: #fff;
+}
+
+.article-author {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.article-author img {
+	padding-right: 25px;
+}
+
+.article-author__title {
+	color: #fff;
+}
+
+#site-footer {
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2e3b4e;
+}
+
+.footer-content {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.site-name {
+	color: #fff;
+}
+
+.by {
+	background: #fff;
+	color: #2e3b4e;
+	padding: 3px;
+	border-radius: 4px;
 }
